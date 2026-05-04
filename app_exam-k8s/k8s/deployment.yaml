@@ -17,7 +17,7 @@ spec:
         - name: dockerhub-secret #docker hub 관련 정보 추가
       containers:
         - name: my-webserver
-          image: sjkim686/echo-hostname:1.0
+          image: sjkim686/echo-hostname:b3e6b01ad38ed9ef91997344291f07a188d473b8
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
