@@ -39,7 +39,7 @@ jobs:
 
       - name: Update Kubernetes manifest
         run: |
-          git clone https://github.com/masungil70/argocd_exam.git
+          git clone https://github.com/sjkim686/argocd_exam.git
           cd app_exam-k8s/k8s/
 
           echo "수정전 deployment.yaml"
